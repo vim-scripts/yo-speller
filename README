@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=841
+
+Russian home-page of this project is http://python.anabar.ru/yo.htm
+There you can find analogous macros for XEmacs writen by me in ELisp.
+
+This programs check russhian text to find words with E letter and chage to the YO letter if needed. For example: "avtogidropod'emnik" -> "avtogidropodyomnik". Words were letter yo must be, changed silently. And if this word may be with yo and may be without (vse-vsyo, chem-chyom) there are prompt a dialog.
+
+Script correctly work with case: "Word" change to "Another", "word" to "another" and "WORD" to "ANOTHER", "wORd" dont change, because it is no word :)
+
+Experiment show this if not very hard, because most of word chanded automatically. The database contain 60000 words (in all cases)
